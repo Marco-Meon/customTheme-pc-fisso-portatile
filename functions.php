@@ -1,5 +1,5 @@
 <?php
-function basetheme_setup() {
+function pcfissoportatile_setup() {
 
   // Enable custom header
   add_theme_support( "custom-header" );
@@ -25,24 +25,24 @@ function basetheme_setup() {
 
   // Custom menu areas
   register_nav_menus( array(
-    'header' => esc_html__( 'Header', 'basetheme' )
+    'header' => esc_html__( 'Header', 'pcfissoportatile' )
   ));
 
 }
 
-add_action( 'after_setup_theme', 'basetheme_setup' );
+add_action( 'after_setup_theme', 'pcfissoportatile_setup' );
 
 
 /*  Enqueue css
 /* ------------------------------------ */
 
-function basetheme_styles() {
+function pcfissoportatile_styles() {
 
-	wp_enqueue_style( 'basetheme-style', get_template_directory_uri().'/style.css');
+	wp_enqueue_style( 'pcfissoportatile-style', get_template_directory_uri().'/style.css');
 
 }
 
-add_action( 'wp_enqueue_scripts', 'basetheme_styles' );
+add_action( 'wp_enqueue_scripts', 'pcfissoportatile_styles' );
 
 require_once('custom/custom-function.php');
 

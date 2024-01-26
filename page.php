@@ -14,7 +14,7 @@
       </article>
 
       <?php endwhile; else :?>
-      <p><?php esc_html_e('Non è stato trovato nessun articolo corrisondente alla tua ricerca, prova a cercare altro', 'basetheme');?></p>
+      <p><?php esc_html_e('Non è stato trovato nessun articolo corrisondente alla tua ricerca, prova a cercare altro', 'pcfissoportatile');?></p>
       <?php endif; ?>
 
     </div>

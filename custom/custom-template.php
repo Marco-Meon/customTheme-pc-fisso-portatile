@@ -13,7 +13,7 @@
 
       <?php endwhile; else :?>
 
-      <p><?php esc_html_e('Sorry, no posts matched your criteria.', 'basetheme');?></p>
+      <p><?php esc_html_e('Sorry, no posts matched your criteria.', 'pcfissoportatile');?></p>
 
       <?php endif; ?>
 

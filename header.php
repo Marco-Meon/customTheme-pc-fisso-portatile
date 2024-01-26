@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="<?php bloginfo('description'); ?>">
-  <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/favicon.png" type="image/png">
+  <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/logo.svg" type="image/png">
 
   <?php wp_head();?>
 
@@ -16,7 +16,7 @@
 
   <?php wp_body_open();?>
 
-  <header class="header__container">
+  <!--<header class="header__container">
 
     <div class="header">
 
@@ -30,4 +30,10 @@
 
     </div>
 
+  </header>-->
+
+  <header class="header-container">
+    <h1 class="site-logo">
+      <a href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/custom/img/logo.svg" alt=""></a>
+    </h1>
   </header>
