@@ -1,17 +1,21 @@
 
-<footer class="footer mt-4">
+<footer class="footer mt-4 mb-2">
+  <div class="line mb-2"></div>
+  <div class="footer__container">
 
-  <div class="grid pt-3 pb-3">
-    <div class="col-50">
+    <div class="footer__container-info">
       © Copyright <?php echo date("Y");?>
       <?php bloginfo('title');?> -
-      Via Cavour 1 Milano, P.Iva 0000000000 -
+      Via Cavour 1 Milano, P.Iva 0000000000
     </div>
-    <div class="col-50 text-right">
-      <a href="/privacy-policy"> Privacy Policy</a> - <a href="/cookie-policy"> Cookie Policy</a>
-    </div>
-  </div>
 
+    <div class="footer__container-privacy">
+      <a href="/privacy-policy"> Privacy Policy</a> 
+        -
+      <a href="/cookie-policy"> Cookie Policy</a>
+    </div>
+
+  </div>
 </footer>
 
 <?php wp_footer();?>

@@ -33,7 +33,5 @@
   </header>-->
 
   <header class="header-container">
-    <h1 class="site-logo">
-      <a href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/custom/img/logo.svg" alt=""></a>
-    </h1>
+    <a class="site-logo" href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/custom/img/logo.svg" alt=""></a>
   </header>

@@ -25,35 +25,32 @@ body, html{box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-
 /* ----------------------------------------------------------------------------------- */
 /* ! Button System */
 /* ----------------------------------------------------------------------------------- */
-
-/* ! Button System general */
-.button, .wp-block-button__link{font-size: clamp(25px, 3.5vw ,35px);text-transform: uppercase; background: #361085; color:#fff;padding: 20px 35px 12px 35px;position: relative;transition: all 0.5s cubic-bezier(.215, .61, .355, 1);}
-.button::after, .wp-block-button__link::after{content: "";position: absolute;bottom: 0;width: 100%;background: #000;height: 0%;left: 0;transition: all 0.5s cubic-bezier(.215, .61, .355, 1);z-index: -1;}
+.button, .wp-block-button__link{font-size: var(--button-font-sz);text-transform: uppercase; background-color: var(--button-bg); color: var(--text-color);padding: 20px 35px 12px 35px;position: relative;transition: var(--transition);z-index: 1;font-family: var(--title-font-fam);}
+.button::before, .wp-block-button__link::before{content: "";position: absolute;bottom: 0;width: 100%;background-color: var(--bg-color);height: 1px;left: 0;transition: var(--transition);z-index: -1;}
 
 /* ! Button System upper */
-.button-upper{position: absolute;top: 0;right: 0;width: 50%;height: 1px;background: #fff;transition: all 0.5s cubic-bezier(.215, .61, .355, 1);}
-.button-upper-1{position: absolute;top: 0;left: 0;height: 1px;background: #fff;}
-.button-upper-2{position: absolute;top: 0;left: 0;width: 1px;height: 50%;background: #fff;transition: all 0.5s cubic-bezier(.215, .61, .355, 1);}
+.button-upper{position: absolute;top: 0;right: 0;width: 50%;height: 1px;background: var(--text-color);transition: var(--transition);}
+.button-upper-1{position: absolute;top: 0;left: 0;height: 1px;background: var(--text-color);}
+.button-upper-2{position: absolute;top: 0;left: 0;width: 1px;height: 50%;background: var(--text-color);transition: var(--transition);}
 
 /* ! Button System lower */
-.button-lower{position: absolute;bottom: 0;left: 0;width: 50%;height: 1px;background: #fff;transition: all 0.5s cubic-bezier(.215, .61, .355, 1);}
-.button-lower-1{position: absolute;bottom: 0;right: 0;height: 1px;background: #fff;}
-.button-lower-2{position: absolute;bottom: 0;right: 0;width: 1px;height: 50%;background: #fff;transition: all 0.5s cubic-bezier(.215, .61, .355, 1);}
+.button-lower{position: absolute;bottom: 0;left: 0;width: 50%;height: 1px;background: var(--text-color);transition: var(--transition);}
+.button-lower-1{position: absolute;bottom: 0;right: 0;height: 1px;background: var(--text-color);}
+.button-lower-2{position: absolute;bottom: 0;right: 0;width: 1px;height: 50%;background: var(--text-color);transition: var(--transition);}
 
 /* ! Button System hover */
-.button:hover, .wp-block-button__link:hover{box-shadow: 0 5px 20px rgb(255, 255, 255);}
+.button:hover, .wp-block-button__link:hover{box-shadow: var(--box-shadow);z-index: 1;}
 .button:hover .button-lower, .button:hover .button-upper{width: 100%;}
 .button:hover .button-lower-2, .button:hover .button-upper-2{height: 100%;}
-.button:hover.button::after{height: 100%;}
+.button:hover.button::before{height: 100%;}
+
 
 /* ----------------------------------------------------------------------------------- */
 /* ! Header */
 /*----------------------------------------------------------------------------------- */
+.header-container{position: fixed;top: 0;width: 100%;height: auto;border-bottom: 1px solid var(--text-color);background: var(--bg-color);z-index: 9999;display: flex;justify-content: center;align-items: center;opacity: 0;}
+.header-container img{width: 300px;margin: 20px auto;}
 
-.header-container{position: fixed;top: 0;width: 100%;height: auto;border-bottom: 1px solid transparent;background: transparent;z-index: 1;}
-
-.site-logo{top: 0%;left: 50%;transform: translateX(-50%);width: 300px;margin-top: 20px;z-index: 1;opacity: 1;position: relative;}
-.site-logo img{width: 100%;}
 
 
 /* ----------------------------------------------------------------------------------- */
@@ -69,6 +66,13 @@ body, html{box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-
 /* ----------------------------------------------------------------------------------- */
 /* ! Footer */
 /*----------------------------------------------------------------------------------- */
+footer{width: var(--width);margin-inline: auto;}
+.footer__container{display: flex;flex-direction: row;justify-content: space-between;}
+.footer__container-privacy, .footer__container-info{font-size: var(--footer-font-sz);}
+@media (max-width: 768px) {
+  .footer__container{flex-direction: column;}
+  .footer__container-privacy{display: flex;flex-direction: row;justify-content: flex-end;}
+}
 
 
 /* ----------------------------------------------------------------------------------- */
@@ -109,7 +113,8 @@ body, html{box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-
 .pb-4{padding-bottom: 15vh;}
 
 .overflow{overflow: hidden;}
-
+.full-line{width: 100vw;height: 1px;background: var(--text-color);}
+.line{width: 100%;height: 1px;background: var(--text-color);}
 
 /* ! Wordpress Styles */
 /*----------------------------------------------------------------------------------- */
@@ -117,3 +122,8 @@ body, html{box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-
 
 .alignfull{width: 100vw;margin-left: calc(50% - 50vw);}
 .alignwide{width: 90vw;margin-left: calc(50% - 45vw);}
+
+
+/* ! Animations */
+/*----------------------------------------------------------------------------------- */
+.fade-in{opacity: 0; transform: translateY(5rem);}
