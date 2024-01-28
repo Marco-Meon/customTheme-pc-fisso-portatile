@@ -306,6 +306,57 @@
 </section>
 
 
+<section class="section-social">
+  <h2>I nostri social</h2>
+  <div class="section-social__container">
+    <a href="" class="section-social__link">
+      <p>YouTube</p>
+    </a>
+    <a href="" class="section-social__link">
+      <p>Instagram</p>
+    </a>
+    <a href="" class="section-social__link">
+      <p>Tik Tok</p>
+    </a>
+  </div>
+</section>
+
+
+<section class="section-collab">
+  <h2>Ultime Collaborazioni</h2>
+  <div class="section-collab__container">
+
+    <div class="section-collab__video">
+      <lite-youtube videoid="fMpu1ZQxPEY" params="controls=1"></lite-youtube>
+    </div>
+
+    <div class="section-collab__video">
+      <lite-youtube videoid="fMpu1ZQxPEY" params="controls=1"></lite-youtube>
+    </div>
+
+    <div class="section-collab__video">
+      <lite-youtube videoid="fMpu1ZQxPEY" params="controls=1"></lite-youtube>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section-sostieni">
+  <a href="" class="section-sostieni__container">
+    <img src="<?php echo get_stylesheet_directory_uri() ?>/custom/img/image-1.png" alt="">
+    <h2>Sostieni il progetto</h2>
+  </a>
+</section>
+
+
+<section class="section-faq">
+  <div class="section-faq__container">
+
+  </div>
+</section>
+
+
 <main class="grid grid--center">
   <div class="col-100">
     <?php the_content(); ?>

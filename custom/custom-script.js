@@ -48,7 +48,7 @@ tl.to('.header-container', {opacity: 1, scrollTrigger: {trigger: '.cover', start
 /*  ----------------------------------------------------------------------------------------------- */
 /* ! Cover */
 /* ------------------------------------------------------------------------------------------------ */
-tl.from('.cover__img', {opacity: 0, scale: 0.5, duration: 5, ease: Power2.easeOut})
+tl.from('.cover__img', {opacity: 0, scale: 1.5, duration: 3, ease: Power2.easeOut})
 .to(".fade-in", {opacity: 1, y:0, duration: 1.5, stagger: 0.3, ease: Power2.easeOut}, "1");
 
 
