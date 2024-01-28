@@ -353,6 +353,88 @@
 <section class="section-faq">
   <div class="section-faq__container">
 
+    <div class="section-faq__title">
+      <h2>FAQs</h2>
+    </div>
+
+    <div class="section-faq__questions">
+
+      <div class="section-faq__item">
+        <button aria-expanded="false">
+          <h3 class="section-faq__item-title">Quanto tempo servirà per sviluppare il sito web?</h3>
+          <img aria-hidden="true" class="section-faq__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/plus.svg" alt="">
+        </button>
+        <div class="section-faq__item-content">
+          <p>
+            Le tempistiche per la realizzazione di un sito web, variano da progetto a progetto in base alle esigenze e alle specifiche richieste.
+            </br></br>
+            Tuttavia, si possono fornire delle stime approssimative che variano come detto in precedenza, da circa qualche settimana, fino ad arrivare ai progetti per siti web più complessi e complicati che possono arrivare anche a pochi mesi. 
+            Se hai bisogno di più informazioni riguardo alle possibili tempistiche del tuo sito web non esitare a contattarci.
+          </p>
+        </div>
+      </div>
+
+      <div class="section-faq__item">
+        <button aria-expanded="false">
+          <h3 class="section-faq__item-title">Quanto tempo servirà per sviluppare il sito web?</h3>
+          <img aria-hidden="true" class="section-faq__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/plus.svg" alt="">
+        </button>
+        <div class="section-faq__item-content">
+          <p>
+            Le tempistiche per la realizzazione di un sito web, variano da progetto a progetto in base alle esigenze e alle specifiche richieste.
+            </br></br>
+            Tuttavia, si possono fornire delle stime approssimative che variano come detto in precedenza, da circa qualche settimana, fino ad arrivare ai progetti per siti web più complessi e complicati che possono arrivare anche a pochi mesi. 
+            Se hai bisogno di più informazioni riguardo alle possibili tempistiche del tuo sito web non esitare a contattarci.
+          </p>
+        </div>
+      </div>
+
+      <div class="section-faq__item">
+        <button aria-expanded="false">
+          <h3 class="section-faq__item-title">Quanto tempo servirà per sviluppare il sito web?</h3>
+          <img aria-hidden="true" class="section-faq__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/plus.svg" alt="">
+        </button>
+        <div class="section-faq__item-content">
+          <p>
+            Le tempistiche per la realizzazione di un sito web, variano da progetto a progetto in base alle esigenze e alle specifiche richieste.
+            </br></br>
+            Tuttavia, si possono fornire delle stime approssimative che variano come detto in precedenza, da circa qualche settimana, fino ad arrivare ai progetti per siti web più complessi e complicati che possono arrivare anche a pochi mesi. 
+            Se hai bisogno di più informazioni riguardo alle possibili tempistiche del tuo sito web non esitare a contattarci.
+          </p>
+        </div>
+      </div>
+
+      <div class="section-faq__item">
+        <button aria-expanded="false">
+          <h3 class="section-faq__item-title">Quanto tempo servirà per sviluppare il sito web?</h3>
+          <img aria-hidden="true" class="section-faq__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/plus.svg" alt="">
+        </button>
+        <div class="section-faq__item-content">
+          <p>
+            Le tempistiche per la realizzazione di un sito web, variano da progetto a progetto in base alle esigenze e alle specifiche richieste.
+            </br></br>
+            Tuttavia, si possono fornire delle stime approssimative che variano come detto in precedenza, da circa qualche settimana, fino ad arrivare ai progetti per siti web più complessi e complicati che possono arrivare anche a pochi mesi. 
+            Se hai bisogno di più informazioni riguardo alle possibili tempistiche del tuo sito web non esitare a contattarci.
+          </p>
+        </div>
+      </div>
+
+      <div class="section-faq__item">
+        <button aria-expanded="false">
+          <h3 class="section-faq__item-title">Quanto tempo servirà per sviluppare il sito web?</h3>
+          <img aria-hidden="true" class="section-faq__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/plus.svg" alt="">
+        </button>
+        <div class="section-faq__item-content">
+          <p>
+            Le tempistiche per la realizzazione di un sito web, variano da progetto a progetto in base alle esigenze e alle specifiche richieste.
+            </br></br>
+            Tuttavia, si possono fornire delle stime approssimative che variano come detto in precedenza, da circa qualche settimana, fino ad arrivare ai progetti per siti web più complessi e complicati che possono arrivare anche a pochi mesi. 
+            Se hai bisogno di più informazioni riguardo alle possibili tempistiche del tuo sito web non esitare a contattarci.
+          </p>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
